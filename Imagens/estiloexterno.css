@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Abel';
+}
+
+html, body { 
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+ 
+body {
+    background: url('5667001.jpg') no-repeat top center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position: relative; 
+    height: 100vh; 
+}
+
+#telefone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 800px;
+    width: 550px;
+    background: url('celular.png') no-repeat center center;   
+    background-size: contain;
+}
+    
+#frame {
+    position: relative;
+    top: 169px;
+    left: 163px;
+    width: 224px;
+    height: 425px;
+    border-radius: 29px;
+}
+
+#redes-sociais {
+    text-align: right;
+    padding: 50px;
+}
+
+#redes-sociais img {
+    margin: 30px;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 20px;
+    color: rgba(0, 0, 0, 0.597);
+}
+
+#redes-sociais img:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+    
+#redes-sociais img:not(:hover) {
+    transform: scale(1.0);
+    transition: 0.5s;
+}
+
+h1 {
+font-size: 20px;
+text-align: center;
+}
